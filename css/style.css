@@ -1,0 +1,196 @@
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+.carousel-inner img{
+   margin:auto;
+   float:none;
+}
+
+#leftc { 
+  width:1%;
+    margin:auto;}
+.carousel-control.left{
+    margin :auto;
+    opacity: 1;
+    position: absolute;
+    left:-2%;
+    background: none;
+}
+.carousel-control.right{
+    margin :auto;
+    background: none;
+}
+#rightc { 
+   width:8%;
+    background: none;
+    opacity: 1;
+    
+}
+
+
+
+
+.text {
+ z-index: 2;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+    width: 50%;
+    height: 40px;
+    padding: 0%;
+    margin: 0;
+    margin-top: -10px; /* 1/2 height */
+    text-align: center;
+    color:whitesmoke;
+    
+    opacity: 1;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2%;
+    
+}
+#blogimg{
+    border-radius: 50%;
+    width:230px;
+    height:230px;
+     background:rgba(178,180,178,0.7);
+	padding-left: 0.5%;
+        padding-right: 0.5%;
+        
+  	text-align: center;
+	cursor:pointer;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s; 	
+        margin:auto;
+        margin-bottom:4%;
+}
+.block h1{
+    z-index: 2;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    right: 0;
+    font-size: 20px;
+    width: 80%;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    margin-top: -13px; /* 1/2 height */
+    text-align: center;
+    color:whitesmoke;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.block h2{
+    z-index: 2;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    right: 0;
+    font-size: 20px;
+    width: 80%;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    margin-top: -13px; /* 1/2 height */
+    text-align: center;
+    color:whitesmoke;
+    background-color: black;
+    opacity: 0.6;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.carousel-control > a > span {
+    color: white;
+	  font-size: 29px !important;
+}
+
+.carousel-col { 
+    position: relative; 
+    
+    min-height: 1px; 
+    padding: 5px; 
+    float: left;
+ }
+
+ .active > div { display:none; }
+ .active > div:first-child { display:block; }
+
+ 
+/*xs*//*
+@media (max-width:100%) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { right: 50% }
+	.carousel-inner .next        { left:  40%; }
+	.carousel-inner .prev		     { left: -50%; }
+  .carousel-col                { width: 100%; }
+	.active > div:first-child + div { display:block; }
+        .caraousel-control.right{margin-right:19%;}
+}*/
+
+/*sm
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { left: 50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		     { left: -50%; }
+  .carousel-col                { width: 50%; }
+	.active > div:first-child + div { display:block; }
+}*/
+
+/*md*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .carousel-inner .active.left { left: -33%; }
+  .carousel-inner .active.right { left: 33%; }
+	.carousel-inner .next        { left:  33%; }
+	.carousel-inner .prev		     { left: -33%; }
+  .carousel-col                { width: 33%; }
+	.active > div:first-child + div { display:block; }
+  .active > div:first-child + div + div { display:block; }
+}
+
+/*lg*/
+@media (min-width: 1200px) {
+  .carousel-inner .active.left { left: -25%; }
+  .carousel-inner .active.right{ left:  25%; }
+	.carousel-inner .next        { left:  25%; }
+	.carousel-inner .prev		     { left: -25%; }
+  .carousel-col                { width: 25%; }
+	.active > div:first-child + div { display:block; }
+  .active > div:first-child + div + div { display:block; }
+	.active > div:first-child + div + div + div { display:block; }
+}
+
+.block {
+	width: 306px;
+	height: 230px;
+        
+}
+.block img{
+    width:306px;
+    height:230px;
+    position: relative;
+    opacity: 0.7;
+    background: -webkit-radial-gradient(top center, ellipse cover, rgba(255,255,255,0.2) 0%,rgba(0,0,0,0.5) 100%);
+}
+.block img:hover{
+    opacity:0.4;
+    
+    
+}
+#blogrow{
+    margin:auto;
+    width:100%;
+    
+}
